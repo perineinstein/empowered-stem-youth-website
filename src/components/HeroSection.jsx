@@ -89,7 +89,7 @@ export default function HeroSection() {
               {/* Right Side of the Grid (Images 3 & 4) */}
               <div className="space-y-4 sm:space-y-6 lg:space-y-8 pt-12 sm:pt-16 lg:pt-24">
                 <img 
-                  src="/images/stem-ai-future.jpg" 
+                  src="/images/Stem-ai-future.jpg" 
                   alt="Young student learning AI programming" 
                   className="w-full h-56 sm:h-64 object-cover rounded-2xl shadow-2xl shadow-blue-900/10"
                 />
