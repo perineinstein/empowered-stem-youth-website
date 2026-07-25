@@ -126,7 +126,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; {new Date().getFullYear()} Empowered STEM Youth. All rights reserved.
+            &copy; {new Date().getFullYear()} Empowered STEAM Youth. All rights reserved.
           </p>
           <p className="text-xs leading-5 text-gray-400 flex items-center gap-1">
             Made by SteinKernel Systems

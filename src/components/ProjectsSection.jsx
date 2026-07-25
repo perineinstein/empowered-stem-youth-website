@@ -17,7 +17,7 @@ const projects = [
     id: 2,
     title: 'AI Bootcamp for Rural Students',
     category: 'IoT & Software Development',
-    description: 'We are bringing together students from underserved rural schools across the Asutifi Constituency for a hands-on STEM experience that many have never had the opportunity to access. Through robotics, artificial intelligence, programming, and practical engineering activities, we aim to ignite curiosity, unlock potential, and show every young learner that where they come from should never limit what they can achieve. By opening doors to quality STEM education, we are investing in a future where talent is discovered, nurtured, and empowered to create lasting change.',
+    description: 'We are bringing together students from underserved rural schools across the Asuogyaman Constituency for a hands-on STEM experience that many have never had the opportunity to access. Through robotics, artificial intelligence, programming, and practical engineering activities, we aim to ignite curiosity, unlock potential, and show every young learner that where they come from should never limit what they can achieve. By opening doors to quality STEM education, we are investing in a future where talent is discovered, nurtured, and empowered to create lasting change.',
     image: '/images/project-iot.jpg',
     tags: ['AI Fundamentals', 'Robotics', 'Programming']
   }
@@ -45,7 +45,7 @@ export default function ProjectsSection() {
             className="flex-shrink-0"
           >
             <a href="#all-projects" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
-              View all student projects
+              View all projects
               <ArrowTopRightOnSquareIcon className="w-4 h-4" />
             </a>
           </motion.div>
