@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Add this to scale the site to 90% on laptops and desktops */
-@layer base {
-  html {
-    font-size: 100%; /* Keeps mobile looking normal */
-  }
-  
-  @media (min-width: 1024px) {
-    html {
-      font-size: 50%; /* Scales EVERYTHING down to 90% on large screens */
-    }
-  }
-}
 
 @theme {
   /* Your existing brand colors */
@@ -25,17 +8,25 @@
   --color-brand-pink: #ec4899;
   
   /* New Vibrant Global Colors */
-  --color-brand-cyan: #06b6d4;  /* A bright, tech-focused cyan */
-  --color-brand-amber: #f59e0b; /* An energetic, youthful yellow-orange */
+  --color-brand-cyan: #06b6d4;  
+  --color-brand-amber: #f59e0b; 
 }
 
-/* Add this block to scale everything up */
-html {
-  /* Default is 16px. Increasing this to 18px or 20px makes ALL fonts and spacing globally larger */
-  font-size: 18px; 
-}
+@layer base {
+  html {
+    /* Your preferred base size for mobile */
+    font-size: 18px; 
+  }
+  
+  @media (min-width: 1024px) {
+    html {
+      /* Scales EVERYTHING down beautifully on laptops and desktops */
+      font-size: 90%; 
+    }
+  }
 
-body {
-  background-color: #ffffff;
-  font-family: var(--font-sans);
+  body {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
 }
