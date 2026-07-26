@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to scale the site to 90% on laptops and desktops */
+@layer base {
+  html {
+    font-size: 100%; /* Keeps mobile looking normal */
+  }
+  
+  @media (min-width: 1024px) {
+    html {
+      font-size: 90%; /* Scales EVERYTHING down to 90% on large screens */
+    }
+  }
+}
 
 @theme {
   /* Your existing brand colors */
