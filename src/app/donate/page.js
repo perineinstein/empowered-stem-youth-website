@@ -76,11 +76,11 @@ export default function DonatePage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Registered Name</p>
-                  <p className="text-lg font-medium text-gray-900">Empowered STEAM Youth</p>
+                  <p className="text-lg font-medium text-gray-900">Empowered STEAM Youth LBG</p>
                 </div>
                 <div className="sm:col-span-2 p-4 bg-gray-50 rounded-xl border border-gray-100">
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">MoMo Number</p>
-                  <p className="text-2xl font-bold text-brand-blue tracking-widest">054 477 5671</p>
+                  <p className="text-2xl font-bold text-brand-blue tracking-widest">059 447 2073</p>
                 </div>
               </div>
             </div>
@@ -100,19 +100,19 @@ export default function DonatePage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Account Name</p>
-                  <p className="text-lg font-medium text-gray-900">Empowered STEM Youth</p>
+                  <p className="text-lg font-medium text-gray-900">Empowered STEAM Youth LBG</p>
                 </div>
-                <div>
-                  <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Branch</p>
+                {/*<div>
+                  <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">AKOSOMBO</p>
                   <p className="text-lg font-medium text-gray-900">Enter Branch Info</p>
                 </div>
-                <div>
+                {<div>
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Swift / BIC Code</p>
                   <p className="text-lg font-medium text-gray-900">Enter SWIFT for Int. Transfers</p>
-                </div>
+                </div>*/}
                 <div className="sm:col-span-2 p-4 bg-gray-50 rounded-xl border border-gray-100 mt-2">
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Account Number</p>
-                  <p className="text-2xl font-bold text-brand-dark tracking-widest">XXXX XXXX XXXX XXXX</p>
+                  <p className="text-2xl font-bold text-brand-dark tracking-widest">6011920089</p>
                 </div>
               </div>
             </div>
